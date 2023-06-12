@@ -1,0 +1,76 @@
+.content-wrap {
+  position: relative;
+}
+
+.header__title-box {
+  position: relative;
+  z-index: 2;
+  padding: 100px 80px;
+  pointer-events: none;
+  color: #fff;
+}
+
+.header__title-box > * {
+  pointer-events: auto;
+}
+
+.header__title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+
+.header__text {
+  max-width: 80%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.header__btn-link {
+  display: inline-block;
+  padding: 20px 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: mediumpurple;
+  transition: background-color .3s ease;
+}
+
+.header__btn-link:hover {
+  background-color: mediumslateblue;
+}
+
+.slider.swiper-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgray;
+}
+
+.slide-1 {
+  background-image: url("../img/photo-of-balconies-swipe-1.jpg");
+}
+
+.slide-2 {
+  background-image: url("../img/brown-and-blue-swipe-2.jpg");
+}
+
+.slide-3 {
+  background-image: url("../img/apartment-apartment-swipe-3.jpg");
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
